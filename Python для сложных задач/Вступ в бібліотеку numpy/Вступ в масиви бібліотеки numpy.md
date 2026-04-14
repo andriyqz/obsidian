@@ -89,3 +89,5 @@ x = np.array([1, 2, 3])
 print(x[np.newaxis, :]) # add new axis to make row-vector
 print(x[:, np.newaxis]) # add new axis to make column-vector
 ```
+
+### Злиття масивів 
