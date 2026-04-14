@@ -82,10 +82,9 @@ print(x2)
 ### Зміна форми масивів
 ```python
 x2 = np.arange(1, 10)
-print(x2.reshape((3, 3)))
-
 x = np.array([1, 2, 3])
 
+print(x2.reshape((3, 3)))
 print(x[np.newaxis, :]) # add new axis to make row-vector
 print(x[:, np.newaxis]) # add new axis to make column-vector
 ```
@@ -95,14 +94,12 @@ print(x[:, np.newaxis]) # add new axis to make column-vector
 x = np.array([1, 2, 3])
 y = np.array([3, 2, 1])
 z = np.array([[99],
-             [99]])
-
-print(np.concatenate([x, y]))
+              [99]])
 
 grid = np.array([[1, 2, 3],
-
                  [4, 5, 6]])
-
+                 
+print(np.concatenate([x, y]))
 print(np.concatenate([grid, grid]))
 print(np.concatenate([grid, grid], axis=1)) # конкатенація за колонками
 print(np.vstack([x, grid]))
