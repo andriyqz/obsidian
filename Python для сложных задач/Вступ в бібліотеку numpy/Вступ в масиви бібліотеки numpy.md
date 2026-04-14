@@ -64,3 +64,18 @@ print(x2[0, :]) # first row
 ```
 
 Зрізи масиву повертають views, а не копії, тому якщо ми змінемо зрізаний підмасив, то батьківський масив також зміниться.
+
+### Копії масивів
+```python
+np.random.seed(0)
+
+x2 = np.random.randint(10, size=(3, 4))
+x2[0] = 0
+
+x2_sub_copy = x2[:2, :2].copy()
+x2_sub_copy[0][0] = 1
+
+print(x2_sub_copy)
+print(x2)
+```
+
