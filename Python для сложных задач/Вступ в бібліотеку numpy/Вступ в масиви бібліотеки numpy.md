@@ -7,5 +7,5 @@ np.linspace(0, 1, 5)
 np.random.random((3, 3)) # random values between 0 and 1
 np.random.normal(0, 10, (3, 3)) # normal distribution width sigma = 10 around 0
 np.eye(3, 5) # E matrix 3x5
-
+np.empty((3, 5)) # empty matrix
 ```
