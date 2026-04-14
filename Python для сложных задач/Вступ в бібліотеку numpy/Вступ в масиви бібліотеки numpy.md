@@ -44,8 +44,13 @@ np.random.seed(0)
 
 x = np.arange(10)
 
-print(x[4:-1:2]) # from start to end with 
-print(x[::2])
-print(x[1::2])
-print(x[5::-2])
+print(x[4:-1:2]) # from 4 to end with step = 2
+print(x[::2]) # from start to end with step = 2
+print(x[1::2]) # from 1 to end with step = 2
+print(x[5::-2]) # from 5 to start with step = 2
+```
+
+### Багатовимірні зрізи
+```python
+
 ```
