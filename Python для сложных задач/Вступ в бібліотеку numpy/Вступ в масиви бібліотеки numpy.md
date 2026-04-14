@@ -21,4 +21,6 @@ print(x1.ndim, x1.shape, x1.size)
 print(x2.ndim, x2.shape, x2.size)
 print(x3.ndim, x3.shape, x3.size)
 print(x1.dtype)
+print(x1.itemsize) # size of 
+print(x2.nbytes)
 ```
