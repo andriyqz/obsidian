@@ -24,3 +24,16 @@ print(x1.dtype)
 print(x1.itemsize) # size of every element in bytes
 print(x2.nbytes) # x2.itemsize * x2.size
 ```
+
+### Індексація
+```python
+np.random.seed(0)
+
+x2 = np.random.randint(10, size=(3, 4))
+
+print(x2)
+print(x2[1, 2])
+
+x2[0][0] = 3.14 # will be just 3!
+print(x2)
+```
