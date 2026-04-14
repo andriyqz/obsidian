@@ -109,3 +109,32 @@ print(np.hstack([z, grid]))
 ```
 
 ### Розбиття масивів
+```python
+x = np.arange(10)
+
+grid = np.arange(32).reshape((8, 4))
+
+  
+
+x1, x2, x3 = np.split(x, [3, 5])
+
+  
+
+print(x1, x2, x3, '\n')
+
+  
+
+upper, mid, lower = np.vsplit(grid, [2, 6])
+
+print(upper, '\n', mid, '\n', lower)
+
+  
+
+grid = np.arange(16).reshape((4, 4))
+
+  
+
+left, right = np.hsplit(grid, [2])
+
+print('\n', left, '\n', right)
+```
