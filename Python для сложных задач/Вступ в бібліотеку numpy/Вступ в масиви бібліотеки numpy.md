@@ -52,5 +52,11 @@ print(x[5::-2]) # from 5 to start with step = 2
 
 ### Багатовимірні зрізи
 ```python
+np.random.seed(0)
+
 x2 = np.random.randint(10, size=(3, 4))
+
+print(x2[:2, :3])
+print(x2[:, ::2])
+print(x2[::-1, ::-1])
 ```
