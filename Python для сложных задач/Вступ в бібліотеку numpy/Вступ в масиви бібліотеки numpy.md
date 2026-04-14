@@ -80,3 +80,12 @@ print(x2)
 ```
 
 ### Зміна форми масивів
+```python
+x2 = np.arange(1, 10)
+print(x2.reshape((3, 3)))
+
+x = np.array([1, 2, 3])
+
+print(x[np.newaxis, :]) # add new axis to make row-vector
+print(x[:, np.newaxis]) # add new axis to make column-vector
+```
