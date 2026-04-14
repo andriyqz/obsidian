@@ -11,4 +11,7 @@ np.eye(3, 5) # E matrix 3x5
 np.empty((3, 5)) # empty matrix
 ```
 
-### Атрибути 
+### Атрибути масивів
+```python
+np.
+```
