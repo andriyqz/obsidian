@@ -122,4 +122,5 @@ print(x1, x2, x3, '\n')
 print(upper, '\n', mid, '\n', lower)
 print('\n', left, '\n', right)
 
+#np.dsplit for 3-rd dimension
 ```
