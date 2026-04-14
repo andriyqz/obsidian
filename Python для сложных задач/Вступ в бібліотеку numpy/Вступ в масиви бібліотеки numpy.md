@@ -37,3 +37,15 @@ print(x2[1, 2])
 x2[0][0] = 3.14 # will be just 3!
 print(x2)
 ```
+
+### Зрізи
+```python
+np.random.seed(0)
+
+x = np.arange(10)
+
+print(x[4:-1:2]) # from start to end with 
+print(x[::2])
+print(x[1::2])
+print(x[5::-2])
+```
