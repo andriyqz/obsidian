@@ -91,3 +91,24 @@ print(x[:, np.newaxis]) # add new axis to make column-vector
 ```
 
 ### Злиття масивів 
+```python
+x = np.array([1, 2, 3])
+y = np.array([3, 2, 1])
+z = np.array([[99],
+             [99]])
+
+print(np.concatenate([x, y]))
+
+grid = np.array([[1, 2, 3],
+
+                 [4, 5, 6]])
+
+print(np.concatenate([grid, grid]))
+print(np.concatenate([grid, grid], axis=1)) # конкатенація за колонками
+print(np.vstack([x, grid]))
+print(np.hstack([z, grid]))
+
+# np.dstack for 3-dimensional array
+```
+
+### Розбиття масивів
