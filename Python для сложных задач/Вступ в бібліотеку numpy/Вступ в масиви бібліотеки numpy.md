@@ -1,3 +1,4 @@
+### Створення масивів
 ```python
 np.zeros(10, dtype=int)
 np.ones((3, 5), dtype='float32')
@@ -9,3 +10,5 @@ np.random.normal(0, 10, (3, 3)) # normal distribution width sigma = 10 around 0
 np.eye(3, 5) # E matrix 3x5
 np.empty((3, 5)) # empty matrix
 ```
+
+### Атрибути 
