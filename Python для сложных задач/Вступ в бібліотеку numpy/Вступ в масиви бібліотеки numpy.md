@@ -56,7 +56,7 @@ np.random.seed(0)
 
 x2 = np.random.randint(10, size=(3, 4))
 
-print(x2[:2, :3])
-print(x2[:, ::2])
-print(x2[::-1, ::-1])
+print(x2[:2, :3]) # first 2 row and 3 columns
+print(x2[:, ::2]) # every row with column's step=2
+print(x2[::-1, ::-1]) # mirror every axis
 ```
