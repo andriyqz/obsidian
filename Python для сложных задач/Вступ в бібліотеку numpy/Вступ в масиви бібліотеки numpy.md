@@ -13,5 +13,12 @@ np.empty((3, 5)) # empty matrix
 
 ### Атрибути масивів
 ```python
-np.
+x1 = np.random.randint(10, size=6)
+x2 = np.random.randint(10, size=(3, 4))
+x3 = np.random.randint(10, size=(3, 4, 5))
+
+print(x1.ndim, x1.shape, x1.size)
+print(x2.ndim, x2.shape, x2.size)
+print(x3.ndim, x3.shape, x3.size)
+print(x1.dtype)
 ```
