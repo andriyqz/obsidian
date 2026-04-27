@@ -31,5 +31,17 @@ np.dtype({'names': ('name', 'age', 'weight'),
 np.dtype([('f0', 'S10'), ('f1', '<i4'), ('f2', 'f8')])
 
 tp = np.dtype([('id', 'i8'), ('mat', 'f8', (3, 3))])
-X = np.zeros(1, dtype=tp)
+np.zeros(1, dtype=tp)
+```
+
+### np.recarray
+```python
+person_dtype = np.dtype({'names': ('name', 'age', 'weight'),
+                         'formats': ('U10', 'i4', 'f8')})
+
+
+data = np.zeros(3, dtype=person_dtype)
+data_rec = data.view(np.recarray)
+
+data_rec.age # but slower
 ```
