@@ -1,4 +1,4 @@
-# JSONB — робота з JSON
+# JSONB — робота з JSON:
 
 ## JSON vs JSONB
 
